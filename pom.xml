@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.6.12</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <!-- <relativePath/>  lookup parent from repository -->
     </parent>
     <groupId>com.lishijiee.boot</groupId>
     <artifactId>demos-spring-boot</artifactId>
