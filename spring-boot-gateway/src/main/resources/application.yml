@@ -1,0 +1,16 @@
+server:
+  port: 9100
+  servlet:
+    context-path: /gateway
+spring:
+  application:
+    name: gatewayee
+  # 路由配置
+  cloud:
+    gateway:
+      routes:
+        - id: hello-ee # 唯一标识
+          order: 0 # 优先级，越小越高
+          uri: http://localhost:9200 # gateway转发到的地址
+          predicates:
+            - Path=/hello/** # 处理请求路径为 hello/的
