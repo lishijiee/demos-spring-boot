@@ -40,6 +40,12 @@
 
     </dependencies>
 
+    <modules>
+        <module>spring-boot-gateway</module>
+        <module>spring-boot-hello</module>
+        <module>spring-boot-security</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>
